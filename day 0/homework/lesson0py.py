@@ -3,13 +3,13 @@ from turtle import*
 
 
 width(5)
-speed(20)
+speed(30)
 
 
 penup()
 goto(150, 30)
 pendown()
-color("brown")
+color("black")
 begin_fill()
 forward(300)
 right(90)
@@ -22,7 +22,7 @@ right(90)
 end_fill()
 
 
-color("grey")
+color("silver")
 begin_fill()
 left(180)
 forward(30)
@@ -52,14 +52,14 @@ left(180)
 forward(95)
 right(90)
 forward(10)
-color("silver")
+color("black")
 forward(20)
 
 
 penup()
 goto(220, -100)
 pendown()
-color("teal")
+color("blue")
 begin_fill()
 right(180)
 forward(50)
