@@ -3,7 +3,7 @@ from turtle import*
 
 
 width(5)
-speed(30)
+speed(15)
 
 
 penup()
@@ -85,9 +85,12 @@ forward(50)
 left(90)
 forward(80)
 end_fill()
-
-
-exitonclick()
-
+#grass
+color("green")
+penup()
+forward(177)
+right(90)
+goto()
+pendown()
 
 
