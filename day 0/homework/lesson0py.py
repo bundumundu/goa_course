@@ -1,7 +1,6 @@
 from turtle import*
 
 
-
 width(5)
 speed(15)
 
@@ -85,12 +84,3 @@ forward(50)
 left(90)
 forward(80)
 end_fill()
-#grass
-color("green")
-penup()
-forward(177)
-right(90)
-goto()
-pendown()
-
-
