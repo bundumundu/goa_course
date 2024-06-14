@@ -1,6 +1,5 @@
-good_footballers = ["messi", "ronaldo", "neymar jr", "kvara", "maradona", "pele", "iniesta", "del piero"]
+good_footballers = ["messi", "ronaldo", "neymar jr", "kvara", "maradona", "pele", "iniesta", "del piero"]\
 #შევქმენით ლისტი
-
 
 #print(good_footballers[3:6])
 # ახლა გამოვიყვანეთ ლისტის შუა სამი წევრი
@@ -10,3 +9,6 @@ good_footballers = ["messi", "ronaldo", "neymar jr", "kvara", "maradona", "pele"
 
 #print(good_footballers[:3])
 # ახლა გამოვიყვანეთ ლისტის პირველი 3 ელემენტი
+
+
+#    GOA best <3 
