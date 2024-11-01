@@ -1,73 +1,17 @@
-.p1{
-    color: rgb(0, 0, 255)
-
+.div1{
+    background-color: red;
+    width: 250px;
+    height: 250px;
 }
 
-.p2{
-    color: rgb(255, 0, 0)
-
+.div2{
+    background-color: blue;
+    width: 250px;
+    height: 250px;
 }
 
-.p3{
-    color: rgb(0, 225, 0)
-
-}
-
-
-.p4{
-    color: rgb(255, 255, 255)
-
-}
-
-.p5{
-    color: rgb(0,0, 0)
-
-}
-
-.p6{
-    color: rgb(255, 0, 0)
-
-}
-
-.p7{
-    color: rgb(0, 0, 255)
-
-}
-
-.p8{
-    color: rgb(0, 225, 0)
-
-}
-
-
-.p9{
-    color:rgb(0, 0, 255)
-
-}
-
-
-.p10{
-    color: rgb(225, 0, 0)
-
-}
-
-.p11{
-    color: rgb(0, 225, 0)
-
-}
-
-
-.p12{
-    color: rgb(255, 0, 0)
-
-}
-
-.p13{
-    color: rgb(0, 0, 255)
-
-}
-
-.p14{
-    color: rgb(0, 225, 0)
-
+.div3{
+    background-color: green;
+    width: 250px;
+    height: 250px;
 }
