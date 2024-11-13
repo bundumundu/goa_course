@@ -1,0 +1,32 @@
+/* 
+2) შექმენით საიტი სადაც დაამატებთ 7 პარაგრაფს, პირველ პარაგრაფს ხაზი ქონდეს ზემოთ გასმული, მეორე შუაში მესამეს ქვემოთ, მეოთხეს ზემოთ და შუაში, მეხუთეს შუაში და ქვემოთ, მეექვსეს ზემოთ და ქვემოთ ხოლო მეშვიდეს ზემოთაც ქვემოთაც და შუაშიც, ყველა დეკორაციის ანუ ხაზი ფერი იყოს განსხვავებული და ასევე ტექსტებსაც მიანიჭეთ განსხვავებული ფერები
+*/
+
+.p1{
+    text-decoration: overline red
+
+}
+
+.p2 {
+    text-decoration: line-through green
+}
+
+.p3 {
+    text-decoration: underline blue
+}
+
+.p4 {
+    text-decoration: overline line-through yellow
+}
+
+.p5 {
+    text-decoration: line-through underline purple;
+}
+
+.p6 {
+    text-decoration: overline underline brown;
+}
+
+.p7 {
+    text-decoration: overline line-through underline  rgb(0, 172, 252);
+}
