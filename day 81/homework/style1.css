@@ -1,0 +1,32 @@
+.p1 {
+    color: rgb(255, 0, 0)
+}
+
+.p2 {
+    font-size: 33px;
+}
+
+.p3 {
+    font-family: cursive;
+
+}
+
+.p4 {
+    text-align: center;
+}
+
+.p5 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.p6 {
+    font-weight: bolder;
+}
+
+.p7 {
+    text-decoration: line-through;
+}
+
+.p8 {
+    text-transform: uppercase;
+}

@@ -1,0 +1,20 @@
+.p1 {
+    text-align: center;
+    text-shadow: 4px 4px 6px blue;
+    font-size: 60px;
+    font-family: monospace;
+}
+
+.p2 {
+    text-align: center;
+    text-shadow: 3px 3px 4px;
+    font-size: 20px;
+    font-family: serif;
+}
+
+.p3 {
+    text-align: center;
+    text-shadow: 3px 3px 3px green;
+    font-size: 20px;
+    font-family: cursive;
+}
