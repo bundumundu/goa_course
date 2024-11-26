@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+
+
+.paragraph {
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-size: 130px;
+    text-align: center;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+
+.paragraph2 {
+    font-family: "Doto", sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
