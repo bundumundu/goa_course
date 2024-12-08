@@ -1,0 +1,11 @@
+.p1{
+    transition: 1s;
+}
+
+
+.p1:hover{
+    background-color: red;
+    font-size: 40px;
+    color: blueviolet;
+    text-shadow: 3px 3px 20px blue;
+}
