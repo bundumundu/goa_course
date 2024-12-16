@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+
+
+.p1 {
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.p1{
+    transition: 1s;
+
+}
+
+
+.p1:hover{
+    color: blue
+    
+
+}
+
+.ul {
+    font-family: cursive;
+    list-style-type: circle;
+    color: black;
+    font-size: 25px
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+
+.p2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: blue;
+}
+
+.p2{
+    transition: 1s;
+}
+.p2:hover{
+    font-size: 55px;
+    color: red
+}
+
+.p3 {
+    color: red;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.p3 {
+    transition: 1s;
+}
+
+.p3:hover {
+    color: black;
+    font-size: 75px;
+}
+
+
+.p4 {
+    color: red;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.p4 {
+    transition: 1s;
+}
+
+.p4:hover {
+    color: black;
+    font-size: 75px;
+}
+
+.p5 {
+    color: red;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.p5 {
+    transition: 1s;
+}
+
+.p5:hover {
+    color: black;
+    font-size: 75px;
+}
+
+
+.p6 {
+    text-shadow: 1px 1px 20px;
+    font-size: 40px;
+    color: blue;
+
+}
+
+.p6 {
+    transition: 1s;
+}
+
+.p6:hover {
+    font-size: 70px;
+    color: black;
+}
