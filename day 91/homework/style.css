@@ -1,0 +1,19 @@
+input {
+    border: 10px dotted blue;
+    outline: dotted black;
+}
+
+.input2 {
+    outline: dashed red;
+    border: 10px green;
+}
+
+.input3{
+    outline: dotted yellow;
+    border: 10px darksalmon;
+}
+
+.input4{
+    outline: dashed darkred;
+    border: 10px aqua;
+}
