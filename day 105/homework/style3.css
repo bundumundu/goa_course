@@ -1,0 +1,32 @@
+.box1 {
+    height: 300px;
+    width: 300px;
+    background: orange;
+    display: flex;
+    border: 10px double crimson ;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+
+    transition: all 3s ease;
+
+    transform: skew(15deg, 15deg);
+
+}
+
+
+
+
+.box2{
+    height: 300px;
+    width: 300px;
+    background: tomato;
+    justify-content: center;
+    font-size: 300px;
+    transition: all 1s ease;
+
+    transform: skew(80deg, 140deg);
+
+
+}
+

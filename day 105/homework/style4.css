@@ -1,0 +1,33 @@
+.box1 {
+    height: 300px;
+    width: 300px;
+    background: orange;
+    display: flex;
+    border: 10px double crimson ;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    transition: all 2s ease;
+
+    transform: rotate(1turn);
+
+
+}
+
+
+.box2{
+    height: 300px;
+    width: 300px;
+    background: red;
+    border: dashed 10px tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    transition: all 2s ease;
+
+    transform: rotate(1turn);
+}
+
+
+
