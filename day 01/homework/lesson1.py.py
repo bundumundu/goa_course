@@ -6,7 +6,7 @@ surname="giorgadze"
 
 name="andria" #ეს არის str (string) ტიპის ცვლადი
 age=12 #ეს არის int(integer) მთელი რიცხვი 
-height=169.2 #ეს არის float ცვლადი (ათწილადი)  #boolean (bool) ტიპის ცვლადი
+height=170.2 #ეს არის float ცვლადი (ათწილადი)  #boolean (bool) ტიპის ცვლადი
 
 knows_programming=True 
 #true ან false  is_ugly=false
