@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+body{
+    background-size: cover;
+    background-image: url(../assets/images/background.png);
+    margin: 0px
+}
+
+
+
+.h1{
+    font-family: "Dancing Script", serif;
+    font-size: 120px;
+    text-align: center;
+
+    
+}
+
+h1 .chad{
+    position: absolute;
+    top: 105px;
+    right: 815px;
+    width: 40px;
+}
+
+h1 .loser{
+    position: absolute;
+    top:  190px;
+    left: 49.5%;
+    transform: rotateY(180deg);
+    width: 46px;
+}
+
+
+
+.p1 {
+    
+    
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    text-shadow: 3px 3px 2px green;
+}
+
+
+.p1{
+    transition: 0.5s;
+
+}
+.p1:hover{
+    font-size: 40px 
+}
+
+.p2{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    text-shadow: 3px 3px 2px green;
+}
+.p2{
+    transition: 0.5s;
+
+}
+.p2:hover{
+    font-size: 70px 
+}
+
+
+
+
+.h2{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    text-shadow: 3px 3px 2px green;
+}
+.h2{
+    transition: 0.5s;
+
+}
+.h2:hover{
+    font-size: 70px 
+}
+
+
+.p3{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    text-shadow: 3px 3px 2px green;
+}
+
+
+.p3{
+    transition: 0.5s;
+
+}
+.p3:hover{
+    font-size: 70px 
+}
+
+.box1{
+    text-align: center;
+}
+
+.p4 {
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: black;
+    text-shadow: 3px 3px 2px green;
+}
+
+.p4{
+    transition: 0.5s;
+
+}
+.p4:hover{
+    font-size: 70px 
+}
+
+.p5{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    text-shadow: 3px 3px 2px green;
+}
+.p5{
+    transition: 0.5s;
+
+}
+.p5:hover{
+    font-size: 70px 
+}
+
+.box2{
+    text-align: center;
+}
+
+.p6{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    text-shadow: 3px 3px 2px green;
+}
+
+.p6{
+    transition: 0.5s;
+
+}
+.p6:hover{
+    font-size: 70px 
+}
+.box3{
+    text-align: center;
+}
+
+
+.p7{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    text-shadow: 3px 3px 2px green;
+}
+
+.p7{
+    transition: 0.5s;
+
+}
+.p7:hover{
+    font-size: 70px 
+}
+
+
+
+.box4 {
+    text-align: center;
+}
+
+
+.p8{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    text-shadow: 3px 3px 2px green;
+}
+
+.p8{
+    transition: 1s;
+
+}
+.p8:hover{
+    font-size: 55px 
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box
+
+}
+
+footer{
+    text-align: center;
+}
+.footerbottom{
+    
+    padding: 20px;
+    
+}
+
+.designer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    text-shadow: 3px 3px 2px green;
+}
+
+.footerbottom{
+    background-image: url(../assets/images/footerbackground.png);
+}
+.bomboclat{
+    font-weight: bolder;
+}
