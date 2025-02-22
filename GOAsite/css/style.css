@@ -228,3 +228,13 @@ footer{
 .bomboclat{
     font-weight: bolder;
 }
+
+.cat{
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.dog{
+    text-decoration: none;
+    font-size: 40px;
+}
