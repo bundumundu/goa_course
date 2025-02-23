@@ -1,0 +1,37 @@
+.container {
+    width: 100%;
+    background-color: rgb(143, 142, 142);
+    border-radius: 12px;
+    height: 20px;
+}
+
+.loadingDiv {
+    border-radius: 12px;
+    width: 0%;
+    height: 100%;
+    background-color: rgb(4, 185, 4);
+    animation-name: loadingBar; 
+    animation-duration: 15s;
+}
+
+
+@keyframes loadingBar {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+.p1{
+    text-align: center;
+    font-size: 100px;
+    font-family: "Dancing Script", serif;
+    color: black;
+    text-shadow: 3px 3px 2px green;
+}
+body{
+    background-image: url(/GOAsite/assets/images/footerbackground.png);
+
+}
