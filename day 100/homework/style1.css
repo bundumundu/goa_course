@@ -20,3 +20,18 @@ h1{
     font-size: 20px;
     font-family: "Cinzel", serif;
 }
+
+header{
+    position: fixed;
+    text-align: center;
+}
+
+main{
+    position: absolute;
+    transform: none;
+    text-align: center;
+}
+footer{
+    position: fixed; bottom: 0;
+    text-align: center;
+}
