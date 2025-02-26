@@ -15,7 +15,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgb(201, 227, 191);
-    border: double 2px blue;
+    border: double 2px black;
     width: 350px;
     height: 560px;
     border-radius: 20px;
@@ -39,7 +39,7 @@ form #number:hover{
     background-color: #b9fa81;
 }
 .df{
-    color: rgb(8, 45, 0);
+    color: black;
     font-size:25px;
     font-family: 'Courier New', Courier, monospace;
     margin-left: 10px;
@@ -95,10 +95,10 @@ a{
 }
 .jq:hover{
     font-size: 15px;
-    background-color: #1edf0472;
+    background-color: black
 }
 .jq:active{
-    background-color: green
+    color: black;
     
 }
 
