@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap'); 
+*{
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, #030303, #1edf04);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+.reg{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(201, 227, 191);
+    border: double 2px blue;
+    width: 350px;
+    height: 560px;
+    border-radius: 20px;
+}
+form{
+margin-left: 73px;
+}
+form #name, #Email, #password, #number{
+    transition: 0.5s;
+}
+form #name:hover{
+    background-color: #b9fa81;
+}
+form #Email:hover{
+    background-color: #b9fa81;
+}
+form #password:hover{
+    background-color: #b9fa81;
+}
+form #number:hover{
+    background-color: #b9fa81;
+}
+.df{
+    color: rgb(8, 45, 0);
+    font-size:25px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10px;
+}
+.h11{
+    font-family: "Dancing Script", serif;
+    font-size: 100px;
+    position: relative;
+    left: 71px;
+}
+.h11 .chad{
+    position: absolute;
+    top: -20px;
+    right: 160px;
+    width: 35px;
+}
+.h11 .loser{
+    position: absolute;
+    bottom: 10px;
+    left: 24%;
+    transform: rotateY(180deg);
+    width: 40px;
+}
+a{
+    transition: 0.3s;
+}
+.a1{
+    font-size: 30px;
+    text-decoration: none;
+    position: fixed;
+    top: 20px;
+    right: 400px;
+    font-family: fantasy;
+}
+.a2{
+    font-size: 30px;
+    text-decoration: none;
+    position: fixed;
+    top: 20px;
+    right: 280px;
+    font-family: fantasy;
+}
+.a3{
+    font-size: 30px;
+    text-decoration: none;
+    position: fixed;
+    top: 20px;
+    right: 130px;
+    font-family: fantasy;
+}
+.a1:hover{
+    color: blue;
+    
+}
+.a2:hover{
+    color:red
+    
+}
+.a3:hover{
+    color: #f105b6;
+    
+}
+.jq{
+    transition: 0.37s;
+}
+.jq:hover{
+    font-size: 15px;
+    background-color: #1edf0472;
+}
+.jq:active{
+    background-color: green
+    
+}
+
