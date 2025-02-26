@@ -50,19 +50,7 @@ form #number:hover{
     position: relative;
     left: 71px;
 }
-.h11 .chad{
-    position: absolute;
-    top: -20px;
-    right: 160px;
-    width: 35px;
-}
-.h11 .loser{
-    position: absolute;
-    bottom: 10px;
-    left: 24%;
-    transform: rotateY(180deg);
-    width: 40px;
-}
+
 a{
     transition: 0.3s;
 }
