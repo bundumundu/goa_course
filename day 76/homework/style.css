@@ -1,0 +1,13 @@
+.parent {
+    width: 500px;
+    border: 2px solid black;
+    padding: 10px;
+}
+.child {
+    width: 25%; 
+    border: 2px solid red;
+    padding: 10px;
+}
+.child p {
+    font-size: 50%;
+}

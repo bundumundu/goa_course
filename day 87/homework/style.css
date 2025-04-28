@@ -1,0 +1,92 @@
+.p1{
+    font-size: 100px;
+    color: black;
+}
+.p1{
+    transition: 1s;
+}
+.p1:hover{
+    font-size: 120px;
+    color: green;
+
+}
+.button1{
+    text-decoration: none;
+    height: 40px;
+    width: 80px;
+    border-radius: 15px;
+    background-color: beige;
+    font-weight: 900;
+}
+.button2{
+    text-decoration: none;
+    height: 40px;
+    width:80px;
+    border-radius: 15px;
+    background-color: beige;
+    font-weight: 900;
+}
+.button3{
+    text-decoration: none;
+    height: 40px;
+    width: 80px;
+    border-radius: 15px;
+    background-color: beige;
+    font-weight: 900;
+}
+.button4{
+    text-decoration: none;
+    height: 50px;
+    width: 90px;
+    border-radius: 15px;
+    background-color: beige;
+    font-weight: 900;
+}
+.button5{
+    text-decoration: none;
+    height: 40px;
+    width: 80px;
+    border-radius: 15px;
+    background-color: beige;
+    font-weight: 900;
+}
+.button6{
+    text-decoration: none;
+    height: 40px;
+    width: 80px;
+    border-radius: 15px;
+    background-color: beige;
+    font-weight: 900;
+}
+.button7{
+    text-decoration: none;
+    height: 70px;
+    width: 80px;
+    border-radius: 15px;
+    background-color: beige;
+    font-weight: 900;
+}
+.button8{
+    text-decoration: none;
+    height: 40px;
+    width: 80px;
+    border-radius: 15px;
+    background-color: beige;
+    font-weight: 900;
+}
+.button9{
+    text-decoration: none;
+    height: 40px;
+    width: 80px;
+    border-radius: 15px;
+    background-color: beige;
+    font-weight: 900;
+}
+.button10{
+    text-decoration: none;
+    height: 40px;
+    width: 80px;
+    border-radius: 15px;
+    background-color: beige;
+    font-weight: 900;
+}

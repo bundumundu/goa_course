@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: 'Arial', sans-serif;
 }
-
 .navbar {
     display: flex;
     position: sticky;
@@ -21,43 +18,35 @@ body {
     color: white;
     padding: 10px 20px;
 }
-
 .nav-list {
     display: flex;
     list-style: none;
 }
-
 .nav-list li {
     margin-right: 20px;
 }
-
 .nav-list li:last-child {
     margin-right: 0;
 }
-
 .nav-list li a {
     text-decoration: none;
     color: black;
     font-size: 18px;
     transition: color 0.3s ease-in-out;
 }
-
 .nav-list li a:hover {
     color: #11ff00;
 
 }
-
 .rightNav {
     text-align: right;
 }
-
 #search {
     padding: 8px;
     font-size: 16px;
     border: 2px solid #fff;
     border-radius: 5px;
 }
-
 .btn {
     background-color: greenyellow;
     color: #000;
@@ -67,7 +56,6 @@ body {
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
-
 .btn:hover {
     background-color: green;
 
@@ -78,9 +66,6 @@ body{
     background-image: url(../assets/images/background.png);
     margin: 0px
 }
-
-
-
 .h1{
     font-family: "Dancing Script", serif;
     font-size: 120px;
@@ -88,14 +73,12 @@ body{
 
     
 }
-
 h1 .chad{
     position: absolute;
     top: 105px;
     right: 815px;
     width: 40px;
 }
-
 h1 .loser{
     position: absolute;
     top:  190px;
@@ -103,19 +86,13 @@ h1 .loser{
     transform: rotateY(180deg);
     width: 46px;
 }
-
-
-
 .p1 {
-    
     
     font-size: 30px;
     text-align: center;
     color: black;
     text-shadow: 3px 3px 2px green;
 }
-
-
 .p1{
     transition: 0.5s;
 
@@ -123,7 +100,6 @@ h1 .loser{
 .p1:hover{
     font-size: 40px 
 }
-
 .p2{
     font-size: 30px;
     text-align: center;
@@ -137,10 +113,6 @@ h1 .loser{
 .p2:hover{
     font-size: 70px 
 }
-
-
-
-
 .h2{
     font-weight: bold;
     font-size: 30px;
@@ -155,16 +127,12 @@ h1 .loser{
 .h2:hover{
     font-size: 70px 
 }
-
-
 .p3{
     font-size: 50px;
     text-align: center;
     color: black;
     text-shadow: 3px 3px 2px green;
 }
-
-
 .p3{
     transition: 0.5s;
 
@@ -172,11 +140,9 @@ h1 .loser{
 .p3:hover{
     font-size: 70px 
 }
-
 .box1{
     text-align: center;
 }
-
 .p4 {
     font-weight: bold;
     font-size: 35px;
@@ -184,7 +150,6 @@ h1 .loser{
     color: black;
     text-shadow: 3px 3px 2px green;
 }
-
 .p4{
     transition: 0.5s;
 
@@ -192,7 +157,6 @@ h1 .loser{
 .p4:hover{
     font-size: 70px 
 }
-
 .p5{
     font-size: 40px;
     text-align: center;
@@ -206,18 +170,15 @@ h1 .loser{
 .p5:hover{
     font-size: 70px 
 }
-
 .box2{
     text-align: center;
 }
-
 .p6{
     font-size: 40px;
     text-align: center;
     color: black;
     text-shadow: 3px 3px 2px green;
 }
-
 .p6{
     transition: 0.5s;
 
@@ -228,8 +189,6 @@ h1 .loser{
 .box3{
     text-align: center;
 }
-
-
 .p7{
     font-weight: bold;
     font-size: 40px;
@@ -237,7 +196,6 @@ h1 .loser{
     color: black;
     text-shadow: 3px 3px 2px green;
 }
-
 .p7{
     transition: 0.5s;
 
@@ -245,14 +203,9 @@ h1 .loser{
 .p7:hover{
     font-size: 70px 
 }
-
-
-
 .box4 {
     text-align: center;
 }
-
-
 .p8{
     font-weight: bold;
     font-size: 40px;
@@ -260,7 +213,6 @@ h1 .loser{
     color: black;
     text-shadow: 3px 3px 2px green;
 }
-
 .p8{
     transition: 1s;
 
@@ -268,23 +220,19 @@ h1 .loser{
 .p8:hover{
     font-size: 55px 
 }
-
 *{
     padding: 0;
     margin: 0;
     box-sizing:border-box
 
 }
-
 footer{
     text-align: center;
 }
 .footerbottom{
-    
     padding: 20px;
     
 }
-
 .designer{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -293,7 +241,6 @@ footer{
     color: black;
     text-shadow: 3px 3px 2px green;
 }
-
 .footerbottom{
     background-image: url(../assets/images/footerbackground.png);
 }
