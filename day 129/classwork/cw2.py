@@ -3,4 +3,5 @@ def check_number(num):
         return "Even"
     else:
         return "Odd"
-
+    
+print(check_number(4))
