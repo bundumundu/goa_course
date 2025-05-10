@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fixed Table Header</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: linear-gradient(to right, #ff4e50, #1fb5ad);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .table-container {
+      width: 600px;
+      background: #20c997;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    h2 {
+      text-align: center;
+      color: white;
+      padding: 16px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      color: white;
+    }
+
+    thead {
+      background: rgba(255, 255, 255, 0.2);
+      position: sticky;
+      top: 0;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    tbody {
+      display: block;
+      max-height: 200px;
+      overflow-y: auto;
+    }
+
+    thead, tbody tr {
+      display: table;
+      width: 100%;
+      table-layout: fixed;
+    }
+  </style>
+</head>
+<body>
+
+<div class="table-container">
+  <h2>fixed table header</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>company</th>
+        <th>price</th>
+        <th>change/th>
+        <th>change %</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>wcsd</td><td>$1.38</td><td>+2.01</td><td>-0.36%</td></tr>
+      <tr><td>text</td><td>$2.38</td><td>-0.01</td><td>-1.36%</td></tr>
+      <tr><td>idk</td><td>$3.22</td><td>+0.01</td><td>+1.36%</td></tr>
+      <tr><td>lol</td><td>$1.02</td><td>-1.01</td><td>+2.36%</td></tr>
+      <tr><td>bla bla</td><td>$1.38</td><td>+2.01</td><td>-0.36%</td></tr>
+      <tr><td>goa best</td><td>$2.38</td><td>-0.01</td><td>-1.36%</td></tr>
+    </tbody>
+  </table>
+</div>
+</body>
+</html>

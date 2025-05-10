@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Leaderboard Table lol</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f8f8f8;
+    }
+
+    table {
+      width: 500px;
+      border-collapse: collapse;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    thead {
+      background-color: #009879;
+      color: white;
+    }
+
+    thead th {
+      padding: 16px;
+      text-align: left;
+      font-weight: bold;
+    }
+
+    tbody td {
+      padding: 14px 16px;
+      border-bottom: 1px solid #dddddd;
+      color: #333;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #f3f3f3;
+    }
+
+    tbody tr:nth-child(2) {
+      background-color: #eeeeee;
+      font-weight: bold;
+      color: #009879;
+    }
+
+  </style>
+</head>
+<body>
+<table>
+  <thead>
+    <tr>
+      <th>Rank</th>
+      <th>Name</th>
+      <th>Points</th>
+      <th>Team</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>bartholomew</td>
+      <td>88,110</td>
+      <td>dcode</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>jamal</td>
+      <td>72,400</td>
+      <td>Students</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>daquavious</td>
+      <td>52,300</td>
+      <td>dcode</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
