@@ -21,11 +21,11 @@
       border: 2px solid black;
     }
 
-    .red { background: #c00; }
-    .blue { background: #00f; }
-    .yellow { background: #ff0; }
-    .green { background: #0c0; }
-    .maroon { background: #800018; }
+    .red { background: red }
+    .blue { background: blue }
+    .yellow { background: yellow }
+    .green { background: green }
+    .maroon { background: maroon }
 
     .tall {
       height: 180px;
