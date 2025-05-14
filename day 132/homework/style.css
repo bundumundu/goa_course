@@ -1,0 +1,43 @@
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f0f0f0;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      width: 600px;
+      height: 400px;
+      background: white;
+      border: 5px solid black;
+      padding: 10px;
+      gap: 10px;
+    }
+
+    .box {
+      border: 2px solid black;
+    }
+
+    .red { background: #c00; }
+    .blue { background: #00f; }
+    .yellow { background: #ff0; }
+    .green { background: #0c0; }
+    .maroon { background: #800018; }
+
+    .tall {
+      height: 180px;
+      width: 90px;
+    }
+
+    .medium {
+      height: 90px;
+      width: 90px;
+    }
+
+    .wide {
+      height: 90px;
+      width: 180px;
+    }
