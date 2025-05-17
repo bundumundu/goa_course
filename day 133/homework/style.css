@@ -1,0 +1,73 @@
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #333;
+      padding: 20px;
+    }
+
+    .container {
+      display: flex;
+      height: 90vh;
+      background: white;
+      padding: 10px;
+      gap: 10px;
+    }
+
+    .left {
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .left .top {
+      flex: 2;
+      background: lime;
+      padding: 10px;
+    }
+
+    .left .middle {
+      display: flex;
+      flex: 1;
+      gap: 10px;
+    }
+
+    .left .middle .box1 {
+      flex: 1;
+      background: fuchsia;
+      padding: 10px;
+    }
+
+    .left .middle .box2 {
+      flex: 1;
+      background: gray;
+      padding: 10px;
+    }
+
+    .left .bottom {
+      display: flex;
+      flex: 1;
+      gap: 10px;
+    }
+
+    .left .bottom .box3 {
+      flex: 1;
+      background: cyan;
+      padding: 10px;
+    }
+
+    .left .bottom .box4 {
+      flex: 2;
+      background: salmon;
+      padding: 10px;
+    }
+
+    .right {
+      flex: 1;
+      background: blue;
+      color: white;
+      padding: 10px;
+    }
