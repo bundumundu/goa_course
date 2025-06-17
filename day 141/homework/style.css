@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(224, 201, 204);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+
+}
+
+.main-div{
+    display: flex;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+
+.main-text{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 500px;
+    padding: 20px; 
+    justify-content: space-between;
+   
+    
+}
+.shoe-size{
+    background-color: white;
+   
+}
+button {
+    background-color:white;
+    font-size: 17px;
+    color: pink;
+    border: solid pink 1px;
+    align-items: center;
+    justify-content: center;
+    padding: 13.3px;
+}
+
+.p1{
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: pink;
+}
+.p2{
+    color: pink;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-weight:300;
+}
+
+.h1{
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.price0 {
+    font-size: 40px;
+    color: pink;
+}
+
+.big-text {
+    font-weight: 350;
+    letter-spacing: 1px;
+}
+
+.special-button{
+    background-color: pink;
+    color: white;
+}
+.andria{
+    background-color: pink;
+    color: white;
+    padding: 15px 30px;
+}
+
+.shoe-div{
+    background-color: white;
+
+}
+.photo-div img {
+    width: 100%;
+}
+.text-buttons{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.gapdiv{
+    margin-top: 70px;
+}
