@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.h1{
+    font-size: 60px;
+    font-family: "Inter", sans-serif;
+}
+
+.p1{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+
+.cofee-div{
+    width: 699.9px;
+    height: 294.37px;
+    background: linear-gradient(to right, hsl(175, 27%, 60%), hsl(180, 16%, 86%));
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.h2{
+    color: white;
+    font-size: 38.76px;
+    margin-top: 14.99px;
+}
+
+.p2{
+    color: white;
+    font-size: 12px;
+}
+
+.button1{
+    background-color: white;
+    color:hsl(175, 27%, 60%);
+    border-radius: 5.12px;
+    border: none;
+    padding: 10px 30px;
+    font-weight: 600;
+}
+
+.cofee-text{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.cofee-div img{
+    width: 300px;
+}

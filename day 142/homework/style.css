@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.h1{
+    font-size: 60px;
+    font-family: "Inter", sans-serif;
+}
+
+.p1{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+
+.cofee-div{
+    width: 699.9px;
+    height: 294.37px;
+    background: linear-gradient(to right, hsl(175, 27%, 60%), hsl(180, 16%, 86%));
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.h2{
+    color: white;
+    font-size: 38.76px;
+    margin-top: 14.99px;
+}
+
+.p2{
+    color: white;
+    font-size: 12px;
+}
+
+.button1{
+    background-color: white;
+    color:hsl(175, 27%, 60%);
+    border-radius: 5.12px;
+    border: none;
+    padding: 10px 30px;
+    font-weight: 600;
+}
+
+.cofee-text{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.cofee-div img{
+    width: 300px;
+}
+
+.plant-div{
+    background: linear-gradient( rgb(34, 104, 235), rgb(102, 178, 228));
+    width: 300px;
+    height: 410px;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.p3{
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.h3{
+    color: white;
+
+}
+
+.button2{
+    background-color: white;
+    color:hsl(198, 81%, 55%);
+    border-radius: 5.12px;
+    border: none;
+    padding: 10px 30px;
+    font-weight: 600;
+    justify-content: end;
+    
+}
+
+
+
+
+.hand-text{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.hand-div img{
+    width: 240px;
+}
+
+.hand-div{
+    background: linear-gradient( rgb(218, 85, 147), rgb(238, 179, 206));
+    width: 300px;
+    height: 410px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.p4{
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.h4{
+    color: white;
+
+}
+
+.button3{
+    background-color: white;
+    color:hsl(315, 69%, 60%);
+    border-radius: 5.12px;
+    border: none;
+    padding: 10px 30px;
+    font-weight: 600;
+    justify-content: end;
+    
+}
+
+.planthand{
+    display: flex;
+    gap: 60px;
+    padding-top: 40px;
+}
