@@ -1,34 +1,33 @@
-    body{
-      margin: 0;
-      padding: 0;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      
-    }
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
 
-    .face-div {
-      width: 200px;
-      height: 200px;
-      background: yellow;
-      border-radius: 50%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
+.face-div{
+  background-color: yellow;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
 
-    .eyes-div {
-      display: flex;
-      gap: 50px;
-      font-size: 20px;
-    }
+.eyes-div{
+  display: flex;
+  gap: 30px;
+  font-size: 60px;
+  padding: 100px;
+}
 
 
-    .mouth-div {
-      width: 80px;
-      height: 40px;
-      border-bottom: 5px solid black;
-      border-radius: 0 0 40px 40px solid black;
-    }
+.mouth-div {
+  width: 120px; 
+  height: 60px;              
+  border-bottom: 6px solid black; 
+  border-radius: 0 0 80px 80px;
+  position: absolute;
+  top: 55%; 
+  left: 46.5%;
+}
