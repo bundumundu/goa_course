@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+.food{
+    position: relative;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 100px;
+    width: 39rem;
+    background: url(
+    image.png);
+    background-repeat: no-repeat;
+    background-position: 240px 45px;
+    border-radius: 15px;
+    margin:20px;
+
+}
+
+.food h2 span, .plant h2 span{
+    font-size: 14px;
+    opacity: 50%;
+}
+.food h2, .plant h2 {
+    font-size: 1.8rem;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+.food button, .plant button{
+   padding: 15px 50px; 
+   font-size: 1.2rem;
+   font-weight: bold;
+   border-radius: 70px;
+   border: none;
+   color: hsl(172, 21%, 51%);
+   background-color: white;
+}
+.food-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40.5rem;
+    height: 310px;
+    z-index: -1;
+    border-radius: 15px;
+    background: linear-gradient(to right, hsl(172, 21%, 51%), hsl(180, 16%, 86%));
+}
+
+.plant{
+    width: 19rem;
+    background: linear-gradient(to bottom , #37a3c4, white);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 30px;
+}
+
+.plant img{
+    width: 100px;
+    height: 100px;
+    align-self: flex-end;
+
+}
+
+.plant-detox{
+    display: flex;
+}
+
+.detox{
+    width: 19rem;
+    background: linear-gradient(to bottom , #dd64ab, rgb(234, 209, 235));
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 30px;
+}
+
+.detox img{
+    height: 200px;
+}
+
+
+.span80{
+    font-size: 21px;
+    color: rgb(252, 245, 245);
+}
+
+.h2{
+    color: white;
+    font-size: 34px;
+}
+
+.detox h2 span{
+    font-size: 18px;
+    opacity: 50%;
+}
+
+.detox-btn{
+   padding: 15px 50px; 
+   font-size: 1.2rem;
+   font-weight: bold;
+   border-radius: 70px;
+   border: none;
+   color: hsl(303, 66%, 59%);
+   background-color: white;
+}
+
+.interior-btn{
+    position: absolute;
+    top: 90%;
+}
+
