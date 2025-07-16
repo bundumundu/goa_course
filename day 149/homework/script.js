@@ -32,6 +32,14 @@ console.log("მე ვარ " + name + " " + lastname + ", ვარ " + age +
 
 
 //მეხუთე ვერ გავაკეთე
+//მასწი დამეხმარა! 5)
+let student = "Andria"
+const student2 = "Merabi"
+var student3 = "vika"
+
+console.log(typeof student)
+console.log(typeof student2)
+console.log(typeof student3)
 
 //6
 let string = "მოგესალმებით";
