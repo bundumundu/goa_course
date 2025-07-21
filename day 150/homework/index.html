@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- მომხმარებელს შემოატანინეთ ორი რიცხვი და შეასრულეთ ყველა მოქმედება. (+, -, *, /, **, % ) და alert-ში გამოიტანეთ შედეგი ასეთი სახით. 'ჯამი არის: {ჯამი}'    -->
+    <script src="./script.js"></script>
+</head>
+<body>
+    <script>
+        let a = +prompt("1:");
+        let b = +prompt("2:");
+
+         alert(
+            "ჯამი არის: " + (a + b) + "\n" +
+            "სხვაობა არის: " + (a - b) + "\n" +
+            "გამრავლება არის: " + (a * b) + "\n" +
+            "გაყოფა არის: " + (a / b) + "\n" +
+            "ხარისხი არის: " + (a ** b) + "\n" +
+            "ნაშთი არის: " + (a % b)
+           );
+    </script>
+</body>
+</html>
