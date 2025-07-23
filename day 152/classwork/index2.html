@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+let month = prompt("შეიყვანე თვე (1-12):");
+if (month >= 1 && month <= 12) {
+
+  let season;
+  if (month == 12 || month == 1 || month == 2) season = "ზამთარი";
+  else if (month >= 3 && month <= 5) season = "გაზაფხული";
+  else if (month >= 6 && month <= 8) season = "ზაფხული";
+  else season = "შემოდგომა";
+  
+  alert("სეზონი: " + season);
+} 
+
+else {
+  alert("შეიყვანე სწორი რიცხვი!");
+}
+
+
+
+    </script>
+</body>
+</html>

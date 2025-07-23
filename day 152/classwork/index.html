@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <!--მომხმარებელს შემოატანინე პაროლი და სახელი. თუ პაროლიც და სახელიც ემთხვევა თქვენსას მაშინ ალერტით გამოიტანეთ შედეგი, რომ მომხმარებელი წარმატებით შევიდა საიტზე. სხვა დანარჩენ შემთხვევაში, სახელი ან პაროლი არასწორია.-->
+    <script>
+        const correctname = "andria" 
+        const correctpassword = "1001"
+
+        const name = prompt("შეიყვანეთ სახელი:");
+        const password = prompt("შეიყვანეთ პაროლი:");
+
+        
+        if (name === correctname, password === correctpassword) {
+            alert("მომხმარებელი წარმატებით შევიდა საიტზე.");
+        } else {
+            alert("სახელი ან პაროლი არასწორია.");
+        }
+    </script>
+</body>
+</html>
